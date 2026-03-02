@@ -1,0 +1,1 @@
+/ turi mesti klaida jeigu nuolaida yra didesne nei 100%

@@ -1,0 +1,16 @@
+{
+  "name": "66-paskaita",
+  "version": "1.0.0",
+  "description": "",
+  "main": "match.js",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

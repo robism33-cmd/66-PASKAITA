@@ -1,0 +1,25 @@
+npm init -y
+npm install --save-dev jest
+npm init -y
+npm install --save-dev jest
+sudo
+Sudo npm install --save-dev jest
+npm test
+
+unction sum(a, b) {
+  return a + b;
+}
+
+function subtract(a, b) {
+  return a - b;
+}
+
+function multiply(a, b) {
+  return a * b;
+}
+// pasakau kad sitos funkcijos gali buti exportuotos i kitus failus
+module.exports = {
+  sum,
+  subtract,
+  multiply,
+};

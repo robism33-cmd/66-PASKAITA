@@ -1,0 +1,21 @@
+/ Dedikuotas UNIT test failas skirtas testuoti math.js funkcionalumus
+
+// importuoju reikiamas funkcijas is kito failo
+const { sum, subtract, multiply } = require("./math");
+
+// UNIT test
+// describe - sugrupuoja susijusius testu scenarijus
+// Test suite - 1
+describe("Math funkcijos", () => {
+  // 1 scenarijus
+  test("sum funkcija sudeda du skaicius", () => {
+    // expect - tikekis
+    // sum(2, 4) - iskvieciam funkcija
+    // .toBe(5) - tikimes kad atsakymas bus 5
+    expect(sum(2, 3)).toBe(5);
+  });
+  // 2 scenarijus
+  test("subtract ar atima skaicius", () => {
+    expect(subtract(5, 2)).toBe(3);
+  });
+});
